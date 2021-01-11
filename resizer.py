@@ -16,7 +16,7 @@ def resize():
             imResize25.save('/home/vaisakhbeypore/resizer/resized/'+ filename + '@1x.png', 'PNG', quality=100)
             imResize50.save('/home/vaisakhbeypore/resizer/resized/'+ filename + '@2x.png', 'PNG', quality=100)
             imResize75.save('/home/vaisakhbeypore/resizer/resized/'+ filename + '@3x.png', 'PNG', quality=100)
-            print(count)
-            count = count + 1
+            #print(count)
+            #count = count + 1
 resize()
 
